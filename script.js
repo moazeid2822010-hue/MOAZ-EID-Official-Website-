@@ -1,0 +1,1 @@
+document.querySelectorAll('.navlinks a').forEach(link=>link.addEventListener('click',()=>document.querySelector('.navlinks').classList.remove('show')));
